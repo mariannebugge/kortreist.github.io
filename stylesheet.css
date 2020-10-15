@@ -1,0 +1,41 @@
+*{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*#image-map{
+    border: solid 100px black;
+    width: 75%;
+    margin: auto;
+}*/
+
+/*stil for menyen*/
+ul{
+    list-style: none;
+    background-color: green;
+    width: 15%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li a{
+    display: block;
+    
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;    
+    margin-bottom: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+li a:hover{
+    background-color: greenyellow;
+    text-shadow: 3px 2px 2px black;
+}
+
