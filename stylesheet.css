@@ -1,12 +1,12 @@
 *{
-    font-family: crassula, sans-serif;
+    font-family: crassula, sans-serif; /* Fontkilde: https://fonts.adobe.com/fonts/crassula */
     font-weight: 400;
     font-style: normal;
 }
 
 header{
     text-align: center;
-    color: green;
+    color: rgb(58, 78, 2);
 }
 header>h1{
     font-size: 30px;
@@ -97,7 +97,7 @@ h2 {
 }
 
 #maschmanns .info-block {
-  background-image: url(./img/BildeMaschmanns.png);
+  background-image: url(./img/BildeMaschmanns.png); /*Bildereferanse: /https://maschmanns.no/apningstider-maschmanns/*/
   position: relative;
   background-attachment: fixed;
   width: 100%;
@@ -124,7 +124,7 @@ h2 {
 }
 
 #jacobs .info-block{
-  background-image: url(./img/BildeJacobs.jpg);
+  background-image: url(./img/BildeJacobs.jpg); /*Bildereferanse: https://www.google.com/search?q=jacobs+majorstuen&sxsrf=ALeKk0242aBh3SkW_OrVHT-5uQfRvALnnQ:1602516827394&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi04fixsK_sAhUQH3AKHfb4CCQQ_AUoAnoECB0QBA&biw=1440&bih=703#imgrc=CyEUPcSMCcHTUM&imgdii=QXKGboAwY_Ql2M*/
   position: relative;
   background-attachment: fixed;
   width: 100%;
@@ -133,7 +133,7 @@ h2 {
 }
 
 #landhendleriet .info-block{
-  background-image: url(./img/BildeLandhandleriet.png);
+  background-image: url(./img/BildeLandhandleriet.png); /*Bildereferanse: https://www.google.com/search?q=landhandleriet+i+oslo&tbm=isch&ved=2ahUKEwjqnM6or6_sAhVK6ZQKHQ32AfcQ2-cCegQIABAA&oq=landhandleriet+i+oslo&gs_lcp=CgNpbWcQAzoECAAQGFDoO1i9Q2CFRWgAcAB4AIABzAKIAaIPkgEDMy02mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=O3aEX6qTF8rS0wSN7Ie4Dw&bih=703&biw=1440#imgrc=xEtg-PFAJgxy_M*/
   position: relative;
   background-attachment: fixed;
   width: 100%;
@@ -142,7 +142,7 @@ h2 {
 }
 
 #ekteVare .info-block{
-  background-image: url(./img/BildeEkteVare.jpg);
+  background-image: url(./img/BildeEkteVare.jpg); /*Bildereferanse: https://www.google.com/search?q=ekte+vare+oslo&sxsrf=ALeKk00mD0vn28WH9N3pBUp-qeBFFTCs9w:1602516925986&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi9sPrgsK_sAhWWUt4KHfHxDJ8Q_AUoAnoECCMQBA&biw=1440&bih=703#imgrc=NSF0HIjvxEcMlM*/
   position: relative;
   background-attachment: fixed;
   width: 100%;
