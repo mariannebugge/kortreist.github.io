@@ -1,5 +1,7 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: crassula, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header{
@@ -7,10 +9,11 @@ header{
     color: green;
 }
 header>h1{
-    font-size: 50px;
+    font-size: 40px;
+
 }
 header>p{
-    font-size: 25px;
+    font-size: 23px;
     width: 40%;
     margin: auto;
 }
@@ -18,12 +21,12 @@ header>p{
 /*stil for menyen*/
 ul{
     list-style: none;
-    background-color: green;
+    background-color: rgb(58, 78, 2);
     width: 15%;
     float: left;
     margin: 0;
     padding: 0;
-    border: outset 5px yellowgreen;
+    border: outset 5px rgb(249, 174, 9);
     border-radius: 25px;
 }
 
@@ -46,7 +49,7 @@ li a{
 li a:hover{
     background-color: greenyellow;
 
-    border: inset 3px yellowgreen;
+    border: inset 3px rgb(249, 174, 9);
     border-radius: 25px;
 }
 
@@ -62,8 +65,8 @@ li a:hover{
 }
 
 .text-container{
-    background-color: green;
-    border: solid yellow;
+    background-color: rgb(58, 78, 2);
+    border: solid rgb(249, 174, 9);
     border-radius: 15px;
     font-size: 30px;
     text-align: center;
@@ -77,28 +80,76 @@ li a:hover{
 }
 
 .gul-tekst{
-    color: yellow;
+    color: rgb(249, 174, 9);
 }
 
-.h2 {
-
+h2 {
+  color: rgb(249, 174, 9);
+  font-family: Bodoni URW;
+  font-size: 40px;
 }
 
-.text-maschmanns {
-  font-style: Helvetica light;
+.sub-title {
+  font-family: Bodoni URW;
+  font-size: 25px;
 }
 
-#maschmanns {
+#maschmanns .info-block {
+  background-image: url(./img/BildeMaschmanns.png);
   position: relative;
-  background-color: #3A4E02;
+  background-attachment: fixed;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
 }
 
-.text-block {
+.info-block {
   position: absolute;
- bottom: 20px;
- right: 20px;
- background-color: green;
+ background-color: rgb(58, 78, 2);
  color: white;
  padding-left: 20px;
- padding-right: 20px;
+ width: 600px;
+ font-size: 17px;
+}
+
+.text-block h3{
+  font-family: Bodoni URW;
+}
+
+.hours{
+  font-family: crassula, sans-serif;
+}
+
+#jacobs .info-block{
+  background-image: url(./img/BildeJacobs.jpg);
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#landhendleriet .info-block{
+  background-image: url(./img/BildeLandhandleriet.png);
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#ekteVare .info-block{
+  background-image: url(./img/BildeEkteVare.jpg);
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+footer{
+  background-color: rgb(58, 78, 2);
+  height: 150px;
+  width: 100%;
 }
