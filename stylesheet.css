@@ -28,11 +28,11 @@ ul{
 }
 
 li a{
-    display: block;    
+    display: block;
     width: 90%;
     height: 60px;
     margin: auto;
-    margin-top: 15px;    
+    margin-top: 15px;
     margin-bottom: 15px;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -45,7 +45,7 @@ li a{
 
 li a:hover{
     background-color: greenyellow;
-    
+
     border: inset 3px yellowgreen;
     border-radius: 25px;
 }
@@ -58,7 +58,7 @@ li a:hover{
 
 #image-map{
     border: solid #ff0000;
-    width: 60%;     
+    width: 60%;
 }
 
 .text-container{
@@ -68,7 +68,7 @@ li a:hover{
     font-size: 30px;
     text-align: center;
     width: 30%;
-   
+
     text-shadow: 2px 2px 2px black;
 }
 
@@ -78,4 +78,27 @@ li a:hover{
 
 .gul-tekst{
     color: yellow;
+}
+
+.h2 {
+
+}
+
+.text-maschmanns {
+  font-style: Helvetica light;
+}
+
+#maschmanns {
+  position: relative;
+  background-color: #3A4E02;
+}
+
+.text-block {
+  position: absolute;
+ bottom: 20px;
+ right: 20px;
+ background-color: green;
+ color: white;
+ padding-left: 20px;
+ padding-right: 20px;
 }
