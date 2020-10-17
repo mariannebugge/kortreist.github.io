@@ -105,7 +105,17 @@ h2 {
   width: 100%;
   margin-top: 140px;
   margin-bottom: 80px;
+  background-size: cover;
+}
 
+.veibeskrivelse{
+  font-family: Bodoni URW;
+  font-size: 25px;
+  color: white;
+}
+
+.veibeskrivelse:hover{
+  color: rgb(249, 174, 9);
 }
 
 .info-block {
