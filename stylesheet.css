@@ -2,6 +2,7 @@
     font-family: crassula, sans-serif; /* Fontkilde: https://fonts.adobe.com/fonts/crassula */
     font-weight: 400;
     font-style: normal;
+    margin: auto;
 }
 
 header{
@@ -87,6 +88,7 @@ li a:hover{
 
 h2 {
   color: rgb(249, 174, 9);
+  /*Fontkilde: https://fonts.adobe.com/fonts/bodoni-urw */
   font-family: Bodoni URW;
   font-size: 40px;
 }
@@ -154,4 +156,11 @@ footer{
   background-color: rgb(58, 78, 2);
   height: 150px;
   width: 100%;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+footer p{
+  text-align: left;
+  color: rgb(249, 174, 9);
 }
