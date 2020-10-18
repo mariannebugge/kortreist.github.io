@@ -50,7 +50,7 @@ li a{
 }
 
 li a:hover{
-    background-color: greenyellow;
+    background-color: rgb(10, 92, 10);
     border: inset 3px rgb(249, 174, 9);
     border-radius: 25px;
 }
