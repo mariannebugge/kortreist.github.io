@@ -3,6 +3,7 @@
     font-weight: 400;
     font-style: normal;
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -29,6 +30,7 @@ ul{
     padding: 0;
     border: outset 5px rgb(249, 174, 9);
     border-radius: 25px;
+    position: absolute;
 }
 
 li a{
@@ -49,33 +51,72 @@ li a{
 
 li a:hover{
     background-color: greenyellow;
-
     border: inset 3px rgb(249, 174, 9);
     border-radius: 25px;
 }
 
 #wrapper{
-    text-align: center;
-    border: solid black;
-    height: 500px;
+    position: relative;
+    width: 67%;
 }
 
 #image-map{
-    border: solid #ff0000;
-    width: 60%;
+    width: 100%;
+    z-index: -1; 
+}
+
+.logoMaschmanns{
+  z-index: 1;
+  position: absolute;
+  left: 5%;
+  top: 78%;
+  width: 140px;
+}
+
+.logoJacobs{
+  z-index: 2;
+  position: absolute;
+  left: 34%;
+  top: 42%;
+  width: 140px;
+} 
+
+.logoLandhandleriet{
+  z-index: 1;
+  position: absolute;
+  left: 7%;
+  top: 17%;
+  width: 140px;
+  
+} 
+
+.logoEkteVare{
+  z-index: 1;
+  position: absolute;
+  left: 67%;
+  top: 33%;
+  width: 140px;
+}
+
+.logoEkteVare:hover,.logoJacobs:hover,.logoLandhandleriet:hover,.logoMaschmanns:hover{
+  border: rgb(249, 174, 9) outset;
+  border-radius: 100%;
 }
 
 .text-container{
     background-color: rgb(58, 78, 2);
-    border: solid rgb(249, 174, 9);
+    border: outset rgb(249, 174, 9) 5px;
     border-radius: 15px;
     font-size: 30px;
     text-align: center;
-    width: 40%;
+    width: 30%;
     padding-top: 25px;
     padding-bottom: 25px;
     text-shadow: 2px 2px 2px black;
-    margin: auto;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
 }
 
 .hvit-tekst{
