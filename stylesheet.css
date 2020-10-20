@@ -6,12 +6,17 @@
     scroll-behavior: smooth;
 }
 
+body{
+  background-color: bisque;
+}
+
 header{
     text-align: center;
     color: rgb(58, 78, 2);
+    text-shadow: 1px 1px 1px rgb(249, 174, 9);
 }
 header>h1{
-    font-size: 30px;
+    font-size: 35px;
 
 }
 header>p{
@@ -58,6 +63,8 @@ li a:hover{
 #wrapper{
     position: relative;
     width: 67%;
+    
+    
 }
 
 #image-map{
@@ -139,15 +146,7 @@ h2 {
   font-size: 25px;
 }
 
-#maschmanns .info-block {
-  background-image: url(./img/BildeMaschmanns.png); /*Bildereferanse: /https://maschmanns.no/apningstider-maschmanns/*/
-  position: relative;
-  background-attachment: fixed;
-  width: 100%;
-  margin-top: 140px;
-  margin-bottom: 80px;
-  background-size: cover;
-}
+
 
 .veibeskrivelse{
   font-family: Bodoni URW;
@@ -159,13 +158,10 @@ h2 {
   color: rgb(249, 174, 9);
 }
 
-.info-block {
-  position: absolute;
- background-color: rgb(58, 78, 2);
- color: white;
- padding-left: 20px;
- width: 600px;
- font-size: 17px;
+.info-butikker{
+  border: solid lime;
+  background-color: lime;
+  z-index: 10;
 }
 
 .text-block h3{
@@ -176,31 +172,32 @@ h2 {
   font-family: crassula, sans-serif;
 }
 
-#jacobs .info-block{
-  background-image: url(./img/BildeJacobs.jpg); /*Bildereferanse: https://www.google.com/search?q=jacobs+majorstuen&sxsrf=ALeKk0242aBh3SkW_OrVHT-5uQfRvALnnQ:1602516827394&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi04fixsK_sAhUQH3AKHfb4CCQQ_AUoAnoECB0QBA&biw=1440&bih=703#imgrc=CyEUPcSMCcHTUM&imgdii=QXKGboAwY_Ql2M*/
+.container{
   position: relative;
-  background-attachment: fixed;
-  width: 100%;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  height: 60%;
 }
 
-#landhendleriet .info-block{
-  background-image: url(./img/BildeLandhandleriet.png); /*Bildereferanse: https://www.google.com/search?q=landhandleriet+i+oslo&tbm=isch&ved=2ahUKEwjqnM6or6_sAhVK6ZQKHQ32AfcQ2-cCegQIABAA&oq=landhandleriet+i+oslo&gs_lcp=CgNpbWcQAzoECAAQGFDoO1i9Q2CFRWgAcAB4AIABzAKIAaIPkgEDMy02mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=O3aEX6qTF8rS0wSN7Ie4Dw&bih=703&biw=1440#imgrc=xEtg-PFAJgxy_M*/
-  position: relative;
-  background-attachment: fixed;
+.butikk-bilde{
   width: 100%;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  height: 700px;
+  z-index: -1;
 }
 
-#ekteVare .info-block{
-  background-image: url(./img/BildeEkteVare.jpg); /*Bildereferanse: https://www.google.com/search?q=ekte+vare+oslo&sxsrf=ALeKk00mD0vn28WH9N3pBUp-qeBFFTCs9w:1602516925986&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi9sPrgsK_sAhWWUt4KHfHxDJ8Q_AUoAnoECCMQBA&biw=1440&bih=703#imgrc=NSF0HIjvxEcMlM*/
-  position: relative;
-  background-attachment: fixed;
-  width: 100%;
-  margin-top: 80px;
-  margin-bottom: 80px;
+.info-block {
+  position: absolute;
+  background-color: rgb(58, 78, 2);
+  color: white;
+  padding-left: 20px;
+  width: 30%;
+  height: min-content;
+  font-size: 17px;
+  top: 10%;
+  left: 60%;
+  border: outset rgb(249, 174, 9) 4px;
+  border-radius: 25px;
+  text-shadow: 2px 2px 2px black;
+  z-index: 1;
 }
 
 footer{
