@@ -181,7 +181,7 @@ h2 {
 
 .butikk-bilde{
   width: 100%;
-  height: auto;
+  height: 600px;;
   z-index: -1;
 }
 
@@ -203,6 +203,8 @@ h2 {
 
 .adresse {
   font-size: 25px;
+  color: rgb(249, 174, 9);
+  font-family: Bodoni URW;
 }
 
 footer{
