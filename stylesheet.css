@@ -124,14 +124,11 @@ li a:hover{
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 .hvit-tekst{
     color: white;
-}
-
-.gul-tekst{
-    color: rgb(249, 174, 9);
 }
 
 h2 {
@@ -146,7 +143,6 @@ h2 {
   font-size: 25px;
   padding-top: 20px;
   color: rgb(249, 174, 9);
-
 }
 
 
