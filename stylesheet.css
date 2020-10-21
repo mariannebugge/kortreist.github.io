@@ -7,17 +7,17 @@
 }
 
 body{
-  background-color: bisque;
+  background-color: rgb(58, 78, 2);
 }
 
 header{
     text-align: center;
-    color: rgb(58, 78, 2);
-    text-shadow: 1px 1px 1px rgb(249, 174, 9);
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 header>h1{
     font-size: 35px;
-
+    color: rgb(249, 174, 9);
 }
 header>p{
     font-size: 20px;
@@ -66,12 +66,12 @@ li a:hover{
 
 #wrapper{
     position: relative;
-    width: 67%;    
+    width: 67%;
 }
 
 #image-map{
     width: 100%;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .logoMaschmanns{
@@ -88,7 +88,7 @@ li a:hover{
   left: 34%;
   top: 42%;
   width: 13%;
-} 
+}
 
 .logoLandhandleriet{
   z-index: 1;
@@ -96,8 +96,8 @@ li a:hover{
   left: 7%;
   top: 17%;
   width: 13%;
-  
-} 
+
+}
 
 .logoEkteVare{
   z-index: 1;
@@ -129,7 +129,8 @@ li a:hover{
     position: absolute;
     top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);   
+    transform: translate(-50%, -50%);
+    margin-bottom: 0px;
 }
 
 .hvit-tekst{
@@ -239,7 +240,7 @@ footer{
 
 footer p{
   color: rgb(249, 174, 9);
-  
+
 }
 
 
@@ -264,11 +265,16 @@ footer p{
     font-size: 32px;
   }
 
-  .info-block{
-    font-size: 16px;
+  header p{
+    font-size: 20px;
+    width: 550px;
   }
+
+  .info-block{
+    font-size: 17px;
+  }
+
   li a{
-    font-size: 22px;
+    font-size: 23px;
   }
 }
-
