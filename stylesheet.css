@@ -16,13 +16,14 @@ header{
     text-shadow: 2px 2px 2px black;
 }
 header>h1{
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(249, 174, 9);
+    margin-top: 10px;
 }
 header>p{
     font-size: 20px;
     width: 40%;
-    margin: auto;
+    padding: 12px;
 }
 
 main{
@@ -77,33 +78,32 @@ li a:hover{
 .logoMaschmanns{
   z-index: 1;
   position: absolute;
-  left: 5%;
-  top: 78%;
+  left: 10%;
+  top: 76%;
   width: 13%;
 }
 
 .logoJacobs{
   z-index: 2;
   position: absolute;
-  left: 34%;
-  top: 42%;
-
+  left: 42%;
+  top: 47%;
   width: 13%;
 }
 
 .logoLandhandleriet{
   z-index: 1;
   position: absolute;
-  left: 7%;
-  top: 17%;
+  left: 8%;
+  top: 15%;
   width: 13%;   
 }
 
 .logoEkteVare{
   z-index: 1;
   position: absolute;
-  left: 67%;
-  top: 33%;
+  left: 73%;
+  top: 27%;
   width: 13%;
 }
 
@@ -185,10 +185,9 @@ h2 {
 
 .butikk-bilde{
   width: 100%;
-
   max-height: 700px;
   min-height: 500px;
-
+  object-fit: cover;
   z-index: -1;
 }
 
